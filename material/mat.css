@@ -58,6 +58,11 @@ table {
     font-family: 'Odibee Sans', cursive;
     display: block;
     padding: 0.9rem 0;
+    text-decoration: none;
+    color: #eee;
+}
+.main-banner a{
+    color: #eee;
 }
 body{
     background-color: #222;
@@ -175,6 +180,11 @@ i{
     margin: 3rem auto;    
 }
 
+.current{
+    color: #eee;
+    border: solid 1px #eee;
+    border-radius: 4px;
+}
 
 
 
@@ -203,19 +213,18 @@ i{
 
 
     nav ul li{
-        padding:0.5rem 0.9rem ;
         font-size: 0.5rem;
         /* margin:1rem auto; */
-
+        
+        
+        padding:0.5rem 0.9rem ;
     }
+    
     header{
         height: 44px;
     }
     nav ul{
         margin: 0.12rem 15% 0.12rem 0;
-    }
-    .current{
-        border: none;
     }
     .wrapper .mathead{
         margin: 3rem 0 ;
@@ -229,6 +238,9 @@ i{
     }
     p{
         max-width: 50%;
+    }
+    .current{
+        border: none;
     }
 
 

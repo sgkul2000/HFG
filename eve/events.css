@@ -59,6 +59,9 @@ table {
     display: block;
     padding: 0.9rem 0;
 }
+.main-banner a{
+    color: #eee;
+}
 body{
     background-color: #222;
 
@@ -140,6 +143,10 @@ p{
     font-weight: 400;
     margin: 0.5rem auto 4rem auto;
 }
+.current{
+    color: #eee;
+    border: solid 1px #eee;
+}
 
 
 
@@ -163,6 +170,9 @@ p{
         margin-left: 15%;
 
 
+    }
+    .current{
+        border: none;
     }
 
 

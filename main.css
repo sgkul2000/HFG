@@ -62,6 +62,11 @@ font-family: 'Odibee Sans', cursive; */
     font-family: 'Odibee Sans', cursive;
     display: block;
     padding: 0.9rem 0;
+    text-decoration: none;
+    color: #eee;
+}
+.main-banner a{
+    color: #eee;
 }
 body{
     background-color: #222;
@@ -102,9 +107,9 @@ nav ul li a{
 }
 
 .banner{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 96px);
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)) , url('electronics-bgimg.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,8 +132,9 @@ nav ul li a{
 h2{
     font-weight: 900;
     clear: left;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 0 0 0.5rem 0;
+    /* line-height: 5rem; */
 }
 
 h3{
@@ -137,9 +143,9 @@ h3{
 }
 
 .current{
-    /* background-color: #eee; */
     color: #eee;
     border: solid 1px #eee;
+    border-radius: 4px;
 }
 
 
@@ -190,8 +196,14 @@ h3{
         border: none;
     }
     .banner{
-        height: calc(100vh - 44px);
-        margin-top: 44px;
+        height: calc(100vh - 40px);
+        margin-top: 24px;
     }
-
+    h2{
+        font-size: 5.5rem;
+    }
+    h3{
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
 }

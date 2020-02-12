@@ -58,6 +58,9 @@ table {
     display: block;
     padding: 0.9rem 0;
 }
+.main-banner a{
+    color: #eee;
+}
 body{
     background-color: #222;
 
@@ -113,7 +116,7 @@ main{
     line-height: 1rem;
     margin: 0 auto;
     background-color: #eee;
-    padding: 4rem 3rem;
+    padding: 4rem 1rem;
     min-height: calc(100vh - 200px);
 }
 
@@ -122,13 +125,13 @@ main{
 }
 p{
     text-align: justify;
-    line-height: 1.3rem;
+    line-height: 0rem;
     margin: 2rem 0rem;
 }
 .git{
     text-align: center;
     font-size: 1.2rem;
-    line-height: 1rem;   
+    line-height: 1.5rem;   
 }
 .git i{
     margin: 0rem auto 1rem auto;
@@ -136,6 +139,11 @@ p{
 
 .binder{
     margin: 2rem auto;
+    line-height: 1.5rem;
+}
+.current{
+    color: #eee;
+    border: solid 1px #eee;
 }
 
 
@@ -198,6 +206,9 @@ p{
     p{
         margin: 2rem 5rem;
 
+    }
+    .current{
+        border: none;
     }
 
 }
