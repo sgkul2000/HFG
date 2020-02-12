@@ -181,8 +181,8 @@ p{
     .current{
         border: none;
     }
-    .wrapper .cuhead{
-        margin: 1.5rem 0 ;
+    .wrapper .evehead{
+        margin: 3rem 0; 
     }
     .wrapper{
         padding: 4rem 8rem;

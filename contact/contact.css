@@ -103,7 +103,7 @@ main{
 .wrapper .cuhead{
     font-size: 3rem;   
     font-weight: 600;
-    margin: 5rem 0 2rem 0;
+    margin: 5rem 0 1rem 0;
     text-align: center;
 }
 
@@ -122,9 +122,17 @@ main{
 }
 p{
     text-align: justify;
+    line-height: 1.3rem;
     margin: 2rem 0rem;
 }
-
+.git{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1rem;   
+}
+.git i{
+    margin: 0rem auto 1rem auto;
+}
 
 
 
@@ -176,7 +184,8 @@ p{
     }
     
     .wrapper .cuhead{
-        margin: 1.5rem 0 ;
+        margin: 3rem auto 1rem auto;
+        font-size: 3rem;
     }
     .wrapper{
         padding: 4rem 8rem;

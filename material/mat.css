@@ -171,6 +171,17 @@ i{
     transition: ease 0.3s;
 }
 
+.down-class{
+    margin: 3rem auto;    
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -206,8 +217,8 @@ i{
     .current{
         border: none;
     }
-    .wrapper .cuhead{
-        margin: 1.5rem 0 ;
+    .wrapper .mathead{
+        margin: 3rem 0 ;
     }
     .wrapper{
         padding: 4rem 8rem;
