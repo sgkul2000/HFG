@@ -45,6 +45,7 @@ table {
     border-spacing: 0;
 }
 
+
 *{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -100,44 +101,75 @@ main{
     color: #111;
 }
 
-.wrapper .cuhead{
+.wrapper .mathead{
     font-size: 3rem;   
     font-weight: 600;
-    margin: 5rem 0 2rem 0;
+    margin: 5rem 0 3rem 0;
     text-align: center;
 }
 
 .wrapper{
     max-width: 800px;
-    text-align: left;
+    text-align: center;
     line-height: 1rem;
     margin: 0 auto;
     background-color: #eee;
     padding: 4rem 3rem;
-    min-height: calc(100vh - 200px);
 }
 
-.wrapper a{
-    color: #111;
+/* .wrapper a{
+    color: #eee;
+} */
+
+
+h3{
+    font-size: 1.8rem;
+    margin: 1.5rem auto 1rem auto;
+    font-weight: 400;
+}
+
+img{
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 p{
+    line-height: 1.2rem;
     text-align: justify;
-    margin: 2rem 0rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem auto 4rem auto;
 }
 
+i{
+    margin: 1.5rem auto;
+}
 
+.download-class{
+    color: #111;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
 
+.download-class a{
+    text-decoration: none;
+    color: #222;
+    border: solid 1px #111;
+    border-radius: 3px;
+    padding: 0.4rem 1rem;
+}
 
+.download-class a:hover{
+    color: #eee;
+    background-color: #222;
+    transition: ease 0.3s;
+}
 
-
-
-
-
-
-
-
-
-
+.download-class a:active{
+    color: #eee;
+    background-color: #555;
+    transition: ease 0.3s;
+}
 
 
 
@@ -174,18 +206,21 @@ p{
     .current{
         border: none;
     }
-    
     .wrapper .cuhead{
         margin: 1.5rem 0 ;
     }
     .wrapper{
         padding: 4rem 8rem;
-        /* min-height: calc(100vh); */
             
     }
-    p{
-        margin: 2rem 5rem;
-
+    img{
+        width: 60%;
     }
+    p{
+        max-width: 50%;
+    }
+
+
+    
 
 }
